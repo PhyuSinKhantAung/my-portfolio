@@ -29,16 +29,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar navData={NavData.data} />
-
-          <ContentLayout>{children}</ContentLayout>
+          {children}
         </ThemeProvider>
-        <footer>
-          <hr />
-          <span className="text-muted-foreground flex justify-center items-center py-6">
-            Made by Phyu Sin © 2023
-          </span>
-        </footer>
       </body>
     </html>
   );

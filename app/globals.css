@@ -88,4 +88,12 @@
   .toggle:checked + .slider:before {
     transform: translateX(30px);
   }
+
+  .bg-image {
+    background-image: url('/public//natural-light-white-background.jpg');
+  }
+  .test {
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+  }
 }
