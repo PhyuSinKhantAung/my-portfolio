@@ -29,10 +29,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar navData={NavData.data} />
-
-          <ContentLayout>{children}</ContentLayout>
+          {children}
         </ThemeProvider>
+
         <footer>
           <hr />
           <span className="flex items-center justify-center py-6 text-muted-foreground">
